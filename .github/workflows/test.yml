@@ -37,6 +37,7 @@ jobs:
           local-prefix: github.com/Puena/test-actions-2
           threshold-file: 80
           threshold-package: 80
+          threshold-total: 80
       
       - name: make coverage badge
         uses: action-badges/core@0.2.2
